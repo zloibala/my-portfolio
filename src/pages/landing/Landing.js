@@ -1,41 +1,42 @@
-import { motion } from "framer-motion";
-import Typewriter from "typewriter-effect";
-import landingImage from "../../images/me.svg";
-import Draw from "../../components/Draw";
-import SocialIcons from "../../components/SocialIcons";
+import { motion } from 'framer-motion';
+import Typewriter from 'typewriter-effect';
+// import landingImage from '../../images/me.svg';
+import Draw from '../../components/Draw';
+import SocialIcons from '../../components/SocialIcons';
+import landingImage from '../../images/akmaral.svg';
 
 const Landing = ({ name }) => {
   const styles = {
     landing: {
-      height: "calc(100% - 93px)",
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
+      height: 'calc(100% - 93px)',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
     },
 
     landingImage: {
-      position: "absolute",
-      bottom: "0",
-      opacity: "0.3",
-      mixBlendMode: "lighten",
-      height: "80%",
+      position: 'absolute',
+      bottom: '0',
+      opacity: '0.3',
+      mixBlendMode: 'lighten',
+      height: '80%',
     },
 
     textContainer: {
-      display: "flex",
-      flexDirection: "column",
-      letterSpacing: "1px",
-      textAlign: "center",
-      zIndex: "1",
-      color: "#fff",
-      textShadow: "1px 1px 3px #000",
+      display: 'flex',
+      flexDirection: 'column',
+      letterSpacing: '1px',
+      textAlign: 'center',
+      zIndex: '1',
+      color: '#fff',
+      textShadow: '1px 1px 3px #000',
     },
 
     name: {
-      color: "#fff",
-      fontWeight: "700",
-      marginTop: "-100px",
-      paddingBottom: "28px",
+      color: '#fff',
+      fontWeight: '700',
+      marginTop: '-100px',
+      paddingBottom: '28px',
     },
   };
 
@@ -52,14 +53,14 @@ const Landing = ({ name }) => {
             onInit={(typewriter) => {
               typewriter
                 .changeDelay(80)
-                .typeString("I'm a Software Engineer")
+                .typeString("I'm a Front-End Developer")
                 .pauseFor(1500)
                 .deleteAll()
-                .typeString("Code. ")
+                .typeString('Code. ')
                 .pauseFor(500)
-                .typeString("Create. ")
+                .typeString('Create. ')
                 .pauseFor(500)
-                .typeString("Innovate.")
+                .typeString('Innovate.')
 
                 .start();
             }}
@@ -71,10 +72,10 @@ const Landing = ({ name }) => {
           className="landingImage"
           initial={{ opacity: 0 }}
           animate={{ opacity: 0.4 }}
-          transition={{ duration: 1, ease: "easeInOut" }}
+          transition={{ duration: 1, ease: 'easeInOut' }}
           style={styles.landingImage}
           src={landingImage}
-          alt="Michael Yeates"
+          alt="Boronova Akmaral"
         />
       </div>
       <SocialIcons />
