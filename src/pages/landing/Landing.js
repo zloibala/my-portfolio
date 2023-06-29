@@ -3,7 +3,8 @@ import Typewriter from 'typewriter-effect';
 // import landingImage from '../../images/me.svg';
 import Draw from '../../components/Draw';
 import SocialIcons from '../../components/SocialIcons';
-import landingImage from '../../images/akmaral.svg';
+// import landingImage from '../../images/akmaral.svg';
+import landingImage from '../../images/akmaral.png';
 
 const Landing = ({ name }) => {
   const styles = {
@@ -12,14 +13,15 @@ const Landing = ({ name }) => {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
+      marginRight: '50px',
     },
 
     landingImage: {
       position: 'absolute',
       bottom: '0',
       opacity: '0.3',
-      mixBlendMode: 'lighten',
-      height: '80%',
+      // mixBlendMode: 'lighten',
+      height: '95%',
     },
 
     textContainer: {
@@ -53,7 +55,7 @@ const Landing = ({ name }) => {
             onInit={(typewriter) => {
               typewriter
                 .changeDelay(80)
-                .typeString("I'm a Front-End Developer")
+                .typeString(" Hello, I'm a Front-End Developer")
                 .pauseFor(1500)
                 .deleteAll()
                 .typeString('Code. ')
@@ -71,7 +73,7 @@ const Landing = ({ name }) => {
         <motion.img
           className="landingImage"
           initial={{ opacity: 0 }}
-          animate={{ opacity: 0.4 }}
+          animate={{ opacity: 1 }}
           transition={{ duration: 1, ease: 'easeInOut' }}
           style={styles.landingImage}
           src={landingImage}

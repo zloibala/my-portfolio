@@ -14,28 +14,28 @@ const SocialIcons = () => {
         <i
           className="fa-brands fa-github"
           aria-hidden="true"
-          title="Michael Yeates' GitHub Profile"
+          title="Akmaral Boronova' GitHub Profile"
         ></i>
       </a>
       <a className="icon" style={styles.icon} href="https://www.linkedin.com/in/zloibala/">
         <i
           className="fa-brands fa-linkedin"
           aria-hidden="true"
-          title="Michael Yeates' LinkedIn Profile"
+          title="Akmaral Boronova' LinkedIn Profile"
         ></i>
       </a>
       <a className="icon" style={styles.icon} href="">
         <i
           className="fa-brands fa-instagram"
           aria-hidden="true"
-          title="Michael Yeates' Instagram Profile"
+          title="Akmaral Boronova' Instagram Profile"
         ></i>
       </a>
       <a className="icon" style={styles.icon} href="https://twitter.com/boronovaa">
         <i
           className="fa-brands fa-twitter"
           aria-hidden="true"
-          title="Michael Yeates' Twitter Profile"
+          title="Akmaral Boronova' Twitter Profile"
         ></i>
       </a>
     </div>

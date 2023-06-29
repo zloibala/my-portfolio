@@ -42,3 +42,8 @@
     flex-direction: column;
   }
 }
+@media (max-width: 500px) {
+  .landingImage {
+    left: -50px;
+  }
+}

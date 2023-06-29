@@ -1,22 +1,22 @@
 [
   {
-    "title": "Bike Buddy",
+    "title": "Online Store",
     "image": "./projectImages/bike.png",
-    "description": "I was responsible for the routing functionality of Bike Buddy, an application that helps parents and guardians keep their children safe while cycling. Utilises the Leaflet.js library and TomTom Routing/Reverse Geolocation API's to create an interactive and visually appealing map that allows a user to plot a route, taking into account various factors such as traffic levels, bicycle lanes, and elevation.",
-    "technologies": "Leaflet | jQuery | Bootstrap",
-    "github": "https://github.com/mdyeates/bike-buddy",
-    "deployed": "https://norrinradd8.github.io/bike_buddy/",
+    "description": "Online store for shopping.",
+    "technologies": "HTML | CSS | JS",
+    "github": "",
+    "deployed": "https://myperfectstore.netlify.app/",
     "bgcolor": "#f37737",
     "id": "1"
   },
   {
     "title": "Weather",
-    "image": "./projectImages/weather.png",
-    "technologies": "jQuery | HTML | CSS",
-    "description": " This dashboard uses the OpenWeatherMap API to retrieve detailed weather data, including the city name, date, weather icon, temperature, humidity, and wind speed. The dashboard has a 5-day forecast feature and a search history feature that saves past searches for easy access. It also has a dark/light theme that changes the look of the page based on day or night in the searched location and uses the geolocation API to automatically determine the user's current location and display the weather.",
-    "github": "https://github.com/mdyeates/weather-app",
-    "deployed": "https://mdyeates.github.io/weather-app/",
-    "bgcolor": "#29cbe0",
+    "image": "./projectImages/weatherrr.png",
+    "technologies": "REACT | HTML | CSS | JS ",
+    "description": " This dashboard uses the OpenWeatherMap API to retrieve detailed weather data, including the city name, date, weather icon, temperature, humidity, and wind speed.",
+    "github": "https://github.com/zloibala/weatherapp",
+    "deployed": "https://cool-scone-c0d022.netlify.app",
+    "bgcolor": "pink",
     "id": "2"
   },
   {
@@ -25,7 +25,7 @@
     "technologies": "JS | Node | Bootstrap | OOP | TTD",
     "description": "Team Dashboard is a Node command-line application that takes in information about employees to generate a dynamic HTML web page.",
     "github": "https://github.com/mdyeates/team-dashboard",
-    "deployed": "https://drive.google.com/file/d/1_atUXTM-L9r4NccsrPaaWqPyNu37ftwH/view",
+    "deployed": "https://www.figma.com/proto/TL4ZW14DDKjvK8ozSb7A4s/DEALERSHIP?embed_host=share&kind=&node-id=5-20557&page-id=0%3A1&scaling=scale-down&starting-point-node-id=5%3A20557&type=design&viewport=543%2C361%2C0.33",
     "bgcolor": "#6c4bf4",
     "id": "3"
   },
