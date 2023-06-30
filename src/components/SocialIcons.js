@@ -24,7 +24,7 @@ const SocialIcons = () => {
           title="Akmaral Boronova' LinkedIn Profile"
         ></i>
       </a>
-      <a className="icon" style={styles.icon} href="">
+      <a className="icon" style={styles.icon} href="https://instagram.com">
         <i
           className="fa-brands fa-instagram"
           aria-hidden="true"
