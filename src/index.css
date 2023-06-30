@@ -2,7 +2,10 @@
 
 /* --- VARIABLES --- */
 :root {
-  --bg-color: rgba(106, 106, 245, 0.3);
+  background-color: #d8aef4;
+  background-image: linear-gradient(22deg, #b3cbfb 0%, #b28bd4 50%);
+
+  /* --bg-color: rgba(106, 106, 245, 0.3); */
   --hl-color: rgba(0, 0, 0, 0.3);
   --text-color: #f3f3f3;
   --secondary-text-color: #000000;

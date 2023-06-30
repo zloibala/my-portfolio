@@ -25,8 +25,8 @@ const ContactInfo = ({ name, email, location }) => {
               <i className="icon fa-solid fa-user"></i>{' '}
             </span>
             <div className="mediaWrap">
-              <h6 className="infoType">Name</h6>
-              <span className="infoValue">{name}</span>
+              <h6 className="infoType">{name}</h6>
+              {/* <span className="infoValue">{name}</span> */}
             </div>
           </div>
         </li>
@@ -36,8 +36,8 @@ const ContactInfo = ({ name, email, location }) => {
               <i className="icon fa-solid fa-location-pin "></i>{' '}
             </span>
             <div className="mediaWrap">
-              <h6 className="infoType">Location</h6>
-              <span className="infoValue">{location}</span>
+              <h6 className="infoType">{location}</h6>
+              {/* <span className="infoValue">{location}</span> */}
             </div>
           </div>
         </li>
@@ -47,12 +47,10 @@ const ContactInfo = ({ name, email, location }) => {
               <i className="icon fa-solid fa-envelope "></i>{' '}
             </span>
             <div className="mediaWrap">
-              <h6 className="infoType">Email</h6>
-              <span className="infoValue">
-                <a style={{ color: 'black' }} href={`mailto:${email}`}>
-                  {email}
-                </a>
-              </span>
+              {/* <h6 className="infoType">{email}</h6> */}
+              <a style={{ color: 'white', textDecoration: 'none' }} href={`mailto:${email}`}>
+                <h6 className="infoType">{email}</h6>
+              </a>
             </div>
           </div>
         </li>

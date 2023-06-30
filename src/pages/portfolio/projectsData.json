@@ -1,7 +1,7 @@
 [
   {
     "title": "Online Store",
-    "image": "./projectImages/bike.png",
+    "image": "./projectImages/onlinestore.png",
     "description": "Online store for shopping.",
     "technologies": "HTML | CSS | JS",
     "github": "",
@@ -14,28 +14,28 @@
     "image": "./projectImages/weatherrr.png",
     "technologies": "REACT | HTML | CSS | JS ",
     "description": " This dashboard uses the OpenWeatherMap API to retrieve detailed weather data, including the city name, date, weather icon, temperature, humidity, and wind speed.",
-    "github": "https://github.com/zloibala/weatherapp",
+    "github": "",
     "deployed": "https://cool-scone-c0d022.netlify.app",
     "bgcolor": "pink",
     "id": "2"
   },
   {
-    "title": "Team",
-    "image": "./projectImages/team.png",
-    "technologies": "JS | Node | Bootstrap | OOP | TTD",
-    "description": "Team Dashboard is a Node command-line application that takes in information about employees to generate a dynamic HTML web page.",
-    "github": "https://github.com/mdyeates/team-dashboard",
-    "deployed": "https://www.figma.com/proto/TL4ZW14DDKjvK8ozSb7A4s/DEALERSHIP?embed_host=share&kind=&node-id=5-20557&page-id=0%3A1&scaling=scale-down&starting-point-node-id=5%3A20557&type=design&viewport=543%2C361%2C0.33",
+    "title": "Daycare ",
+    "image": "./projectImages/daycare.png",
+    "technologies": "HTML | CSS | JS | REACT",
+    "description": "At Helen Lucy Daycare, we believe that every child is unique and deserves the best care possible. That's why we offer personalized attention, flexible schedules, and affordable rates. Whether you need full-time or part-time care, we have a spot for your child. Toddler.",
+    "github": "",
+    "deployed": "https://helenlucydaycare.netlify.app/",
     "bgcolor": "#6c4bf4",
     "id": "3"
   },
   {
-    "title": "Quiz",
+    "title": "Spy Game",
     "image": "./projectImages/quiz.png",
     "technologies": "JS | HTML | CSS",
-    "description": "A quiz app on the fundamentals of JavaScript. There are 5 randomly selected multiple-choice questions and the user will have a time limit of 50 seconds. The remaining time will determine their score at the end. The user will be penalised by 10 seconds for every incorrect answer.",
-    "github": "https://github.com/mdyeates/coding-quiz",
-    "deployed": "https://mdyeates.github.io/coding-quiz/",
+    "description": "Spy Game.",
+    "github": "",
+    "deployed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FqHknjzb641DWUzx5jh6T58%2FSpyGame%3Fpage-id%3D0%253A1%26node-id%3D2-2%26scaling%3Dscale-down%26mode%3Ddesign",
     "bgcolor": "#f85781",
     "id": "4"
   },
