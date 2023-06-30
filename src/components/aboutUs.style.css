@@ -1,3 +1,25 @@
 .about__me__text {
   color: aliceblue;
 }
+.about__me__image {
+  position: absolute;
+  bottom: 0px;
+  opacity: 1;
+  height: 120%;
+  left: -60px;
+  z-index: -1;
+}
+.about__me__image {
+  bottom: 0;
+  right: 80px;
+}
+
+.highlight {
+  color: var(--grey);
+  /* font-weight: bold; */
+}
+@media (max-width: 500px) {
+  .about__me__image {
+    left: -50px;
+  }
+}
