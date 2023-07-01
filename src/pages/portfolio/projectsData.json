@@ -38,27 +38,5 @@
     "deployed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FqHknjzb641DWUzx5jh6T58%2FSpyGame%3Fpage-id%3D0%253A1%26node-id%3D2-2%26scaling%3Dscale-down%26mode%3Ddesign",
     "bgcolor": "#f85781",
     "id": "4"
-  },
-
-  {
-    "title": "P1",
-    "image": "./projectImages/P1.png",
-    "description": "Welcome to P1, your virtual pit stop for the latest updates and standings in the world of F1. But that's not all—we've also got the ultimate card game where driver knowledge is the key to victory.",
-    "technologies": "React | Framer | CSS | Bootstrap | Node",
-    "github": "https://github.com/Jake-W95/P1",
-    "deployed": "https://p1-heroes.netlify.app/",
-    "bgcolor": "#ffcc33",
-    "id": "1"
-  },
-
-  {
-    "title": "Planner",
-    "image": "./projectImages/planner.png",
-    "technologies": "JS | Bootstrap | Moment",
-    "description": "Make every hour count with this simple Daily Planner App. You can keep track of all important appointments during a normal 9-5 work day!",
-    "github": "https://github.com/mdyeates/daily-planner",
-    "deployed": "https://mdyeates.github.io/daily-planner/",
-    "bgcolor": "#3e67ff",
-    "id": "6"
   }
 ]

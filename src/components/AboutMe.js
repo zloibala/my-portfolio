@@ -36,7 +36,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
     <div className="about__me__container">
       <div className="text__container">
         <img className="about__me__image" src={imageAboutMe} alt="Akmaral" />
-        <p style={{ color: 'white', textAlign: 'center', width: '700px' }}>
+        <p className="about__me__text">
           I'm <span className="highlight"> Akmaral </span>, the friendly neighborhood front-end
           developer and UX designer with a sprinkle of humor. With a passion for crafting
           pixel-perfect interfaces and making websites come alive, I've been rocking the coding
@@ -57,13 +57,13 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
           </p>
           <br />
           <p>
-            Off the clock, I'm a part-time stargazer and full-time aficionado of all things sci-fi.
-            From warp-speed coding sessions to debating the existence of parallel universes, I'm
-            always ready for an intergalactic adventure. So, if you're looking to blast off with a
-            front-end developer and UX designer who knows how to code with a sense of humor, don't
-            hesitate to launch a message my way. Let's create digital experiences that are not only
-            mind-blowing but also bring a smile to your face. Together, we'll make the web a fun and
-            functional playground for everyone!
+            <span className="highlight"> Off the clock, I'm a part-time stargazer </span>and
+            full-time aficionado of all things sci-fi. From warp-speed coding sessions to debating
+            the existence of parallel universes, I'm always ready for an intergalactic adventure.
+            So, if you're looking to blast off with a front-end developer and UX designer who knows
+            how to code with a sense of humor, don't hesitate to launch a message my way. Let's
+            create digital experiences that are not only mind-blowing but also bring a smile to your
+            face. Together, we'll make the web a fun and functional playground for everyone!
           </p>
         </p>
       </div>

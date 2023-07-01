@@ -1,5 +1,9 @@
-.about__me__text {
+.text__container {
   color: aliceblue;
+  font-size: 1em;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
 }
 .about__me__image {
   position: absolute;
@@ -18,8 +22,18 @@
   color: var(--grey);
   /* font-weight: bold; */
 }
+p {
+  font-size: 1rem;
+}
 @media (max-width: 500px) {
   .about__me__image {
-    left: -50px;
+    left: -45px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  p {
+    font-size: 1rem;
+    color: white;
   }
 }

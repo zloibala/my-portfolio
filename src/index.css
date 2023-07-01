@@ -184,6 +184,8 @@ header {
 
   .links.open {
     display: flex;
+    background-color: white;
+    color: #b28bd4;
   }
 
   .dropdown-toggle {
