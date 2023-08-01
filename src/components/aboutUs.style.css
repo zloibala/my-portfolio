@@ -24,6 +24,7 @@
 }
 p {
   font-size: 1rem;
+  color: var(--grey);
 }
 @media (max-width: 500px) {
   .about__me__image {
